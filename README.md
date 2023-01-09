@@ -19,8 +19,6 @@ python3 setup.py develop
 ## Usage
 
 ```py
-import specnorm
-
 from specnorm import spectral_norm
 import numpy as np
 
