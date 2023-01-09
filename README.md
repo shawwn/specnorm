@@ -2,12 +2,6 @@
 
 > Spectral norms
 
-WARNING: This repo is in development. It was automatically generated with [mkpylib](https://github.com/shawwn/scrap/blob/master/mkpylib). If you're reading this message, it means that I use this repo for my own purposes right now. It might not do anything at all; the default functionality is `print('TODO')`.
-
-If you really want to try it out, feel free. I recommend reading through the [tests](/tests/test_basic.py) and commit history to see if it does what you need, or [ask me](#contact) for status updates.
-
-Stay tuned!
-
 ## Install
 
 ```
@@ -27,7 +21,10 @@ python3 setup.py develop
 ```py
 import specnorm
 
-print('TODO')
+from specnorm import spectral_norm
+import numpy as np
+
+spectral_norm(np.ones((3,3,3)))
 ```
 
 ## License
